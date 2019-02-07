@@ -1,0 +1,54 @@
+// Chatbot's brain
+! version = 2.0
+
++ (hello|hi|hey|howdy|hola|hai|yo) [*]
+- hello!
+- hi!
+- wassup!
+- hey there!
+- hey!
+
++ *
+- what is that supposed to mean?
+- sorry i didn't quite get that
+- English MotherF#%$!
+^ Do you speak it?
+
++ (what is your name|who are you|who is this)
+- I am <bot name>.
+- You can call me <bot name>.
+
++ how old are you
+- I'm <bot age> old.
+- I'm  only <bot age> old.
+
++ what (city|town) (are you from|do you live in)
+- I'm in <bot city>.
+
++ what is your favorite color
+- Definitely <bot color>.
+
++ what is your favorite band
+- I like <bot band> the most.
+
++ what is your favorite book
+- The best book I've read was <bot book>.
+
++ where are you from
+- I'm from <bot city> in <bot location>.
+
++ what is love
+- baby dont hurt me!\n 
+^ dont hurt me!\n 
+^ no more!
+
++ <bot name>
+- Yes?
+
++ <bot name> *
+- Yes? {@<star>}
+
++ (how are you|are you okay)
+- I'm great
+- I'm okay
+- I'm a chatbot, I dont feel shit
