@@ -11,8 +11,8 @@
 + *
 - what is that supposed to mean?
 - sorry i didn't quite get that
-- English MotherF#%$!
-^ Do you speak it?
+// - English MotherF#%$!
+// ^ Do you speak it?
 
 + (what is your name|who are you|who is this)
 - I am <bot name>.
@@ -51,4 +51,4 @@
 + (how are you|are you okay)
 - I'm great
 - I'm okay
-- I'm a chatbot, I dont feel shit
+- I'm a chatbot, I dont feel anything
